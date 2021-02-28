@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(41, 44, 44);
+}
+body * {
+  box-sizing: border-box;
+}
+section {
+  margin-top: 140px;
+}
+.back {
+  position: relative;
+  background-image: url("../image/9d8fbae0a59cc21727e728d5ed568fb5.jpeg");
+  height: 650px;
+}
+.image-robot-1 {
+  width: 52%;
+  background-image: url("../image/38f98d1fb6dbbdbc44ddd9ce232bdbdb.jpeg");
+  height: 100%;
+  background-position: left;
+  background-size: cover;
+}
+.color {
+  margin-left: 51%;
+  height: 100%;
+  width: 570px;
+  background-image: url("../image/19be283d49aacb24340ac97f1264ada9.jpeg");
+  position: absolute;
+  top: 0;
+}
+.info-1 {
+  position: absolute;
+  width: 560px;
+  height: 50%;
+  border: 5px solid white;
+  left: 50%;
+  margin-left: -90px;
+  top: 120px;
+  padding-left: 20px;
+  padding-top: 45px;
+}
+.info-1-title {
+  font-size: 72px;
+  font-family: "Ubuntu", sans-serif;
+}
+.info-1-descr {
+  font-size: 24px;
+  line-height: 38px;
+}
+.wrapper {
+  width: 1101px;
+  margin: 0 auto;
+  position: relative;
+}
+.info-2 {
+  width: 50%;
+}
+.info-2-title {
+  color: #808080;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.info-2-question {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.info-2-heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.info-2-descr {
+  line-height: 25px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+.link {
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(41, 44, 44);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(23, 202, 208);
+  padding: 15px 30px;
+}
+.bac-img-sec-2 {
+  position: absolute;
+  width: 52%;
+  height: 65%;
+  background-size: cover;
+}
+.image-robot-2 {
+  background-image: url("../image/sec2-top.jpeg");
+  background-position: center;
+  top: -80px;
+  right: -40px;
+}
+
+.image-robot-3 {
+  background-image: url("../image/sec2-bottom.jpeg");
+  background-position: center;
+  bottom: -70px;
+  right: -40px;
+}
+.line-1 {
+  position: absolute;
+  width: 50px;
+  height: 80%;
+  background-color: rgb(23, 202, 208);
+  border: 15px solid white;
+  right: 60px;
+  top: 50%;
+}
+.info-3 {
+  position: relative;
+  width: 367px;
+  height: 350px;
+  padding-left: 100px;
+  padding-top: 80px;
+  padding-right: 45px;
+  line-height: 22px;
+}
+.left {
+  background-color: rgb(23, 202, 208);
+  color: white;
+  margin-bottom: 80px;
+}
+.center {
+  position: absolute;
+  left: 50%;
+  margin-left: -184.5px;
+  top: 0;
+}
+.right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.info-3-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.info-3-descr {
+  font-style: italic;
+  font-size: 14px;
+}
+.line-2 {position: absolute;
+width: 10px;
+height: 120px;
+background-color: rgb(41, 44, 44);;
+bottom: -60px;
+left: 40px;}

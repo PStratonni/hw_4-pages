@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+.header {
+  position: relative;
+  background-color: rgb(202, 231, 223);
+  margin-top: 80px;
+  height: 900px;
+  margin-bottom: 80px;
+}
+.girl {
+  position: absolute;
+  background-image: url("../image/girl.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  width: 700px;
+  top: 50px;
+}
+.headphone {
+  position: absolute;
+  background-image: url("../image/headphones.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  background-position: center;
+
+  top: 200px;
+  right: 0;
+}
+.info {  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  height: 100%;
+  width: 27%;
+  right: 600px;
+  padding-right: 20px;
+  color: rgb(17, 17, 17);
+  padding-top: 280px;
+}
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.title-d {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+.descr {
+
+  line-height: 1.8em;
+  text-align: right;
+  margin-bottom: 30px;
+}
+.link{text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #cf9e9a;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 14px;
+
+}
